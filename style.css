@@ -1,0 +1,65 @@
+body{ 
+overflow: hidden; 
+height: 100vh;
+width: 100%;
+}
+.container{
+display: flex;
+gap: 10px;
+align-items: center;
+border-bottom: 1px solid lightgreen;
+ }
+.icon_one, .icon_three, .icon_four{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background-color: #FF3E79;
+}
+.container-two{
+background-color:  #F8F8F8;
+}
+.maintxt_uslugi{
+border-left: 5px solid lightgreen;
+margin-left: 0;
+margin-right: 5px;
+}
+.icon_two{
+color: lightslategray;
+font-size: large;
+font-weight: 500;
+padding-top: 15px;
+margin-right: 40px;
+}
+@media(max-width:1200px){
+body {width: fit-content;}
+body {height: fit-content;}
+body {font-size: large;}
+}
+@media(min-width:320px){
+body{width: fit-content;}
+body {height: fit-content;}
+body {font-size: 22px;}
+}
+@media only screen and (max-width: 1200px){
+}
+.maintxt{
+display: flex;
+width: 800px;
+gap: 10px;
+}
+.maintxt_remont:hover, .maintxt_dop:hover, .maintxt_sen:hover, .maintxt_adr:hover, .maintxt_spec:hover, .maintxt_otz:hover{
+border: 2px solid lightgreen;
+border-radius: 2px;
+}
+h3{
+margin-right: 5px;
+}
+.secondmain{
+width: 250px;
+margin-top: 2%;
+margin-bottom:2%;
+}
